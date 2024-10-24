@@ -4,7 +4,7 @@ import footer_data from "../../data/home-data/FooterData"
 const FooterFive = () => {
    return (
       <div className="footer-four dark-bg position-relative z-1">
-         <div className="news-letter-area">
+         {/* <div className="news-letter-area">
             <div className="container container-large">
                <div className="line-wrapper">
                   <div className="row align-items-center">
@@ -26,7 +26,7 @@ const FooterFive = () => {
                   </div>
                </div>
             </div>
-         </div>
+         </div> */}
 
          <div className="container container-large">
             <div className="bg-wrapper position-relative z-1">
@@ -35,10 +35,10 @@ const FooterFive = () => {
                      <div className="footer-intro">
                         <div className="logo mb-20">
                            <Link to="/">
-                              <img src="/assets/images/logo/logo_07.svg" alt="" />
+                              <img src="/assets/images/logo/Proland-logo.png" alt="" height={150} width={150} />
                            </Link>
                         </div>
-                        <p className="mb-45 md-mb-20">11910 Clyde Rapid Suite 210, Willyand, Virginia, United States</p>
+                        <p className="mb-45 md-mb-20">Vallabh VidyaNagar, Anand</p>
                         <ul className="style-none d-flex align-items-center social-icon">
                            <li><Link to="#"><i className="fa-brands fa-facebook-f"></i></Link></li>
                            <li><Link to="#"><i className="fa-brands fa-twitter"></i></Link></li>

@@ -1,4 +1,4 @@
-import FooterOne from "../../../layouts/footers/FooterOne"
+// import FooterOne from "../../../layouts/footers/FooterOne"
 import HeroBanner from "./HeroBanner"
 import FeedbackOne from "./FeedbackOne"
 import Property from "./Property"
@@ -10,6 +10,7 @@ import Blog from "./Blog"
 import FAQ from "./FAQ"
 import FancyBannerTwo from "./FancyBannerTwo"
 import HeaderTwo from "../../../layouts/headers/HeaderTwo"
+import FooterFive from "../../../layouts/footers/FooterFive"
 
 const HomeTwo = () => {
   return (
@@ -25,8 +26,8 @@ const HomeTwo = () => {
       <Blog style={false} />
       <FAQ />
       <FancyBannerTwo/>
-      <FooterOne style={true} />
-    </>
+      <FooterFive />
+          </>
   )
 }
 

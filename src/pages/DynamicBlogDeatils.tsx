@@ -7,7 +7,8 @@ import FancyBanner from '../components/common/FancyBanner';
 import { useParams } from 'react-router-dom';
 import useBlogs from '../hooks/useBlogs';
 import HeaderOne from '../layouts/headers/HeaderOne';
-import FooterOne from '../layouts/footers/FooterOne';
+// import FooterOne from '../layouts/footers/FooterOne';
+import FooterFive from '../layouts/footers/FooterFive';
 
 const DynamicBlogDeatils = () => {
 
@@ -21,7 +22,7 @@ const DynamicBlogDeatils = () => {
          <HeaderOne />
          <BlogDetailsArea blog={blog} />
          <FancyBanner />
-         <FooterOne style={true} />
+         <FooterFive />
       </Wrapper>
    );
 };
