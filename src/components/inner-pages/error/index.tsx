@@ -4,7 +4,7 @@ import ErrorArea from "./ErrorArea"
 const Error = () => {
    return (
       <>
-         <HeaderOne style={true} />
+         <HeaderOne/>
          <ErrorArea />
       </>
    )

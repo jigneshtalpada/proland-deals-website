@@ -10,7 +10,7 @@ const BLockFeatureOne = () => {
                <p className="fs-24">Your trusted real estate partner in every transaction.</p>
             </div>
 
-            <div className="row gx-xl-5">
+            <div className="row gx-xl-5" style={{display:'flex', justifyContent:'center'}} >
                {feature_data.filter((items) => items.page === "home_1_feature_1").map((item) => (
                   <div key={item.id} className="col-md-4">
                      <div className="card-style-one text-center mt-40">

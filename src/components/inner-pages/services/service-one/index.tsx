@@ -13,7 +13,7 @@ import Feedback from "../../../homes/home-one/Feedback"
 const ServiceOne = () => {
    return (
       <>
-         <HeaderOne style={true} />
+         <HeaderOne/>
          <BreadcrumbOne title="Our Services" link="#" link_title="Pages" sub_title="Services" style={false} />
          <BlockFeatureOne />
          <HomeBLockFeatureOne />

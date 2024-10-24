@@ -20,14 +20,14 @@ const feature_data: DataType[] = [
       btn: "Find Home",
       desc: "Explore homy’s 2 million+ homes and uncover your ideal living space.",
    },
-   {
-      id: 2,
-      page: "home_1_feature_1",
-      icon: "/assets/images/icon/icon_02.svg",
-      title: "RENT A HOME",
-      btn: "Rent Home",
-      desc: "Discover a rental you'll love on homy, thanks to 35+ filters and tailored keywords.",
-   },
+   // {
+   //    id: 2,
+   //    page: "home_1_feature_1",
+   //    icon: "/assets/images/icon/icon_02.svg",
+   //    title: "RENT A HOME",
+   //    btn: "Rent Home",
+   //    desc: "Discover a rental you'll love on homy, thanks to 35+ filters and tailored keywords.",
+   // },
    {
       id: 3,
       page: "home_1_feature_1",

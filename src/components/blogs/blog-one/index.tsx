@@ -1,5 +1,7 @@
-import FooterFour from "../../../layouts/footers/FooterFour";
-import HeaderFour from "../../../layouts/headers/HeaderFour";
+// import FooterFour from "../../../layouts/footers/FooterFour";
+import FooterOne from "../../../layouts/footers/FooterOne";
+// import HeaderFour from "../../../layouts/headers/HeaderFour";
+import HeaderOne from "../../../layouts/headers/HeaderOne";
 import FancyBanner from "../../common/FancyBanner";
 import BreadcrumbThree from "../../common/breadcrumb/BreadcrumbThree";
 import BlogOneArea from "./BlogOneArea"
@@ -7,11 +9,11 @@ import BlogOneArea from "./BlogOneArea"
 const BlogOne = () => {
    return (
       <>
-         <HeaderFour />
-         <BreadcrumbThree title="Blog Grid" link="#" link_title="Pages" sub_title="Blog" style={false} />
+         <HeaderOne />
+         <BreadcrumbThree title="Blog" link="#" link_title="Blog" style={false} />
          <BlogOneArea />
          <FancyBanner />
-         <FooterFour />
+         <FooterOne style={true} />
       </>
    )
 }

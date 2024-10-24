@@ -5,7 +5,7 @@ import ListingFourteenArea from "./ListingFourteenArea"
 const ListingFourteen = () => {
    return (
       <>
-         <HeaderOne style={true} />
+         <HeaderOne/>
          <ListingFourteenArea />
          <FooterFour />
       </>
