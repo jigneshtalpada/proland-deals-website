@@ -31,14 +31,14 @@ const footer_data: DataType[] = [
       widget_class: "xs-mt-30",
       page: "home_1",
       widget_title: "Legal",
-      footer_link: [{ link: "/faq", link_title: "Terms & conditions" }, { link: "/faq", link_title: "Cookie" }, { link: "/faq", link_title: "Privacy policy" }, { link: "/faq", link_title: "Faq’s" },]
+      footer_link: [{ link: "#", link_title: "Terms & conditions" }, { link: "#", link_title: "Cookie" }, { link: "#", link_title: "Privacy policy" }, { link: "#", link_title: "Faq’s" },]
    },
    {
       id: 3,
       widget_class: "xs-mt-30",
       page: "home_1",
       widget_title: "New Listing",
-      footer_link: [{ link: "/listing_01", link_title: "​Buy Apartments" }, { link: "/listing_02", link_title: "Buy Condos" }, { link: "/listing_05", link_title: "Buy Villas" },]
+      footer_link: [{ link: "/listing_04", link_title: "​Buy Apartments" }, { link: "/listing_04", link_title: "Buy Condos" }, { link: "/listing_04", link_title: "Buy Villas" },]
    },
    // {
    //    id: 3,
