@@ -1,4 +1,4 @@
-import FooterOne from "../../../layouts/footers/FooterOne"
+// import FooterOne from "../../../layouts/footers/FooterOne"
 import HeaderOne from "../../../layouts/headers/HeaderOne"
 import Banner from "./Banner"
 import Feedback from "./Feedback"
