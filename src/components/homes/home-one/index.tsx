@@ -1,4 +1,4 @@
-import FooterOne from "../../../layouts/footers/FooterOne"
+// import FooterOne from "../../../layouts/footers/FooterOne"
 import HeaderOne from "../../../layouts/headers/HeaderOne"
 import Banner from "./Banner"
 import Feedback from "./Feedback"
@@ -12,6 +12,9 @@ import BLockFeatureFour from "./BLockFeatureFour"
 import BLockFeatureFive from "./BLockFeatureFive"
 import FancyBannerThree from "./FancyBannerThree"
 import FancyBanner from "../../../components/common/FancyBanner"
+// import FooterTwo from "../../../layouts/footers/FooterTwo"
+// import FooterThree from "../../../layouts/footers/FooterThree"
+import FooterFive from "../../../layouts/footers/FooterFive"
 const HomeOne = () => {
 
   return (
@@ -30,7 +33,7 @@ const HomeOne = () => {
        
       <FancyBanner style={false} />
       <FancyBannerThree /> 
-      <FooterOne style={true} />
+      <FooterFive />
     </>
   )
 }

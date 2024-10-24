@@ -1,5 +1,6 @@
 // import FooterFour from "../../../layouts/footers/FooterFour";
-import FooterOne from "../../../layouts/footers/FooterOne";
+import FooterFive from "../../../layouts/footers/FooterFive";
+// import FooterOne from "../../../layouts/footers/FooterOne";
 // import HeaderFour from "../../../layouts/headers/HeaderFour";
 import HeaderOne from "../../../layouts/headers/HeaderOne";
 import FancyBanner from "../../common/FancyBanner";
@@ -13,7 +14,7 @@ const BlogOne = () => {
          <BreadcrumbThree title="Blog" link="#" link_title="Blog" style={false} />
          <BlogOneArea />
          <FancyBanner />
-         <FooterOne style={true} />
+         <FooterFive />
       </>
    )
 }

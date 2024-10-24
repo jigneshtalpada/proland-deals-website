@@ -1,5 +1,6 @@
 // import FooterFour from "../../../layouts/footers/FooterFour";
-import FooterOne from "../../../layouts/footers/FooterOne";
+import FooterFive from "../../../layouts/footers/FooterFive";
+// import FooterOne from "../../../layouts/footers/FooterOne";
 import HeaderOne from "../../../layouts/headers/HeaderOne";
 import FancyBanner from "../../common/FancyBanner";
 import ListingFourArea from "./ListingFourArea"
@@ -10,7 +11,7 @@ const ListingFour = () => {
          <HeaderOne  />
          <ListingFourArea />
          <FancyBanner />
-         <FooterOne style={true} />
+         <FooterFive />
       </>
    )
 }
