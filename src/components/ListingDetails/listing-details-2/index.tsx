@@ -6,7 +6,7 @@ import ListingDetailsTwoArea from "./ListingDetailsTwoArea"
 const ListingDetailsTwo = () => {
   return (
     <>
-      <HeaderOne style={true} />
+      <HeaderOne/>
       <ListingDetailsTwoArea />
       <FancyBanner />
       <FooterFour />

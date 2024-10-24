@@ -1,7 +1,7 @@
-import BlogComment from "../common-blog/BlogComment";
+// import BlogComment from "../common-blog/BlogComment";
 import BlogSidebar from "../common-blog/BlogSidebar";
 import { Link } from "react-router-dom";
-import BlogForm from "../../forms/BlogForm";
+// import BlogForm from "../../forms/BlogForm";
 
 interface ContentType {
    title_1: string;

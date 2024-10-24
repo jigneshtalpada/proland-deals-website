@@ -7,7 +7,7 @@ import ServiceDetailsArea from "./ServiceDetailsArea"
 const ServiceDetails = () => {
    return (
       <>
-         <HeaderOne style={true} />
+         <HeaderOne/>
          <BreadcrumbOne title="Service Details" link="#" link_title="Service" sub_title="Buy Home" style={true} />
          <ServiceDetailsArea />
          <FancyBanner />

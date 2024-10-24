@@ -8,7 +8,7 @@ import FooterFour from "../../../../layouts/footers/FooterFour"
 const PricingOne = () => {
    return (
       <>
-         <HeaderOne style={true} />
+         <HeaderOne/>
          <BreadcrumbOne title="Pricing Plan" link="#" link_title="Pages" sub_title="Pricing" style={true} />
          <PricingOneArea />
          <FancyBanner />

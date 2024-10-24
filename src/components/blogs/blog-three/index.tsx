@@ -7,7 +7,7 @@ import BlogThreeArea from "./BlogThreeArea"
 const BlogThree = () => {
    return (
       <>
-         <HeaderOne style={true} />
+         <HeaderOne  />
          <BreadcrumbOne title="Blog Full Width" link="#" link_title="Pages" sub_title="Blog" style={true} />
          <BlogThreeArea />
          <FancyBanner />

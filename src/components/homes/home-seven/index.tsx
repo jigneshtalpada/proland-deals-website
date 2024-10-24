@@ -14,7 +14,7 @@ import HeaderOne from "../../../layouts/headers/HeaderOne"
 const HomeSeven = () => {
    return (
       <>
-         <HeaderOne style={true} />
+         <HeaderOne/>
          <HeroBanner />
          <Category style={true} />
          <BLockFeatureOne />

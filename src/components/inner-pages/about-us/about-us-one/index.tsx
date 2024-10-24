@@ -13,7 +13,7 @@ import Brand from "./Brand"
 const AboutUsOne = () => {
    return (
       <>
-         <HeaderOne style={true} />
+         <HeaderOne/>
          <BreadcrumbOne title="About Us" sub_title="About us" style={false} />
          <BLockFeatureOne />
          <VideoBanner />

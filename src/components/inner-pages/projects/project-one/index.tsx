@@ -8,7 +8,7 @@ import FancyBannerCommon from "../../../common/FancyBanner";
 const ProjectOne = () => {
    return (
       <>
-         <HeaderOne style={true} />
+         <HeaderOne/>
          <BreadcrumbOne title="Our Projects" link="#" link_title="Pages" sub_title="Project" style={true} />
          <ProjectArea />
          <FancyBanner />

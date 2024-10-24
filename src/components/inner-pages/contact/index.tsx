@@ -6,7 +6,7 @@ import ContactArea from './ContactArea'
 const Contact = () => {
    return (
       <>
-         <HeaderOne style={true} />
+         <HeaderOne/>
          <ContactArea />
          <FooterOne style={true} />
       </>

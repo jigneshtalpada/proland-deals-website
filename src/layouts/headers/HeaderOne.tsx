@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import MobileMenu from "./Menu/MobileMenu";
 
-const HeaderOne = ({ style }: any) => {
+const HeaderOne = () => {
 
    const [loginModal, setLoginModal] = useState<boolean>(false);
    const [isActive, setIsActive] = useState<boolean>(false);

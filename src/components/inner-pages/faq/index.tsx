@@ -7,7 +7,7 @@ import FaqArea from './FaqArea'
 const Faq = () => {
    return (
       <>
-         <HeaderOne style={true} />
+         <HeaderOne/>
          <BreadcrumbOne title="Question & Answers" link="#" link_title="Pages" sub_title="Faq’s" style={true} />
          <FaqArea/>
          <FancyBanner style={false} />
