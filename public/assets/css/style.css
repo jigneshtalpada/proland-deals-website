@@ -4351,9 +4351,9 @@ iframe {
 }
 
 .search-wrapper-one.bg {
-  background: url(/assets/images/shape/shape_02.svg) no-repeat center;
-  background-size: cover;
-  padding: 25px;
+  /* background: url(/assets/images/shape/shape_02.svg) no-repeat center; */
+  /* background-size: cover; */
+  /* padding: 25px; */
 }
 .search-wrapper-one .bg-wrapper {
   background: #fff;

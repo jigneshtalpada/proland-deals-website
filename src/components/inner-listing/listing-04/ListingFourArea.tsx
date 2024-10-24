@@ -38,7 +38,7 @@ const ListingFourArea = () => {
    return (
       <div className="property-listing-six bg-pink-two pt-110 md-pt-80 pb-170 xl-pb-120 mt-150 xl-mt-120">
          <div className="container">
-            <div className="search-wrapper-one layout-one bg position-relative mb-75 md-mb-50">
+            <div className="search-wrapper-one layout-one position-relative mb-75 md-mb-50">
                <div className="bg-wrapper border-layout">
                   <DropdownTwo
                      handlePriceDropChange={handlePriceDropChange}

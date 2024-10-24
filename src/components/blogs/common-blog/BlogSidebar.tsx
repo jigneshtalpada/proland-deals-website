@@ -5,7 +5,7 @@ import Tag from "./Tag"
 const BlogSidebar = ({style}:any) => {
    return (
       <div className="col-lg-4">
-         <div className={`blog-sidebar dot-bg md-mt-60 ${style?"ms-xxl-4":"ms-xxl-5"}`}>
+         <div className={`blog-sidebar  md-mt-60 ${style?"ms-xxl-4":"ms-xxl-5"}`}>
             <div className="search-form bg-white mb-30">
                <form onSubmit={(e) => e.preventDefault()} className="position-relative">
                   <input type="text" placeholder="Search..." />

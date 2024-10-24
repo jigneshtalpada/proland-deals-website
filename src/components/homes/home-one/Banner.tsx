@@ -12,7 +12,7 @@ const Banner = () => {
             </div>
             <div className="row">
                <div className="col-xxl-10 m-auto">
-                  <div className="search-wrapper-one layout-one bg position-relative">
+                  <div className="search-wrapper-one layout-one  position-relative">
                      <div className="bg-wrapper">
                         <DropdownOne style={false} />
                      </div>
