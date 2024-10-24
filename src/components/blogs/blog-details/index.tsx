@@ -1,15 +1,17 @@
 import FooterFour from "../../../layouts/footers/FooterFour"
+import FooterOne from "../../../layouts/footers/FooterOne"
 import HeaderFour from "../../../layouts/headers/HeaderFour"
+import HeaderOne from "../../../layouts/headers/HeaderOne"
 import FancyBanner from "../../common/FancyBanner"
 import BlogDetailsArea from "./BlogDetailsArea"
 
 const BlogDetails = () => {
    return (
       <>
-         <HeaderFour />
+         <HeaderOne />
          <BlogDetailsArea />
          <FancyBanner />
-         <FooterFour />
+         <FooterOne style={true}/>
       </>
    )
 }

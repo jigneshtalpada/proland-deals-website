@@ -5,7 +5,7 @@ import BlogOneMain from '../components/blogs/blog-one'
 const BlogOne = () => {
    return (
       <Wrapper>
-         <SEO pageTitle={'Blog One Homy'} />
+         <SEO pageTitle={'Blog - Proland Deals'} />
          <BlogOneMain />
       </Wrapper>
    );

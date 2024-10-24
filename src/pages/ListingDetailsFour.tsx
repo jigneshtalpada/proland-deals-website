@@ -5,7 +5,7 @@ import ListingDetailsFourMain from '../components/ListingDetails/listing-details
 const ListingDetailsFour = () => {
    return (
       <Wrapper>
-         <SEO pageTitle={'Listing Details Four Homy'} />
+         <SEO pageTitle={'Listing Details - Proland Deals'} />
          <ListingDetailsFourMain />
       </Wrapper>
    );

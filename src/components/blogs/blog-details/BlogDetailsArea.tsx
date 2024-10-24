@@ -33,7 +33,7 @@ const { title_1, title_2, desc_1, desc_2, desc_3, desc_4, desc_5, desc_6, blog_d
 
 const BlogDetailsArea = ({ blog }: any) => {
    return (
-      <div className="blog-details border-top mt-130 xl-mt-100 pt-100 xl-pt-80 mb-150 xl-mb-100">
+      <div className="blog-details mt-130 xl-mt-100 pt-100 xl-pt-80 mb-150 xl-mb-100">
          <div className="container">
             <div className="row gx-xl-5">
                <div className="col-lg-8">
@@ -90,9 +90,9 @@ const BlogDetailsArea = ({ blog }: any) => {
                         </ul>
                      </div>
                   </article>
-
+{/* 
                   <BlogComment />
-                  <BlogForm />
+                  <BlogForm /> */}
                </div>
                <BlogSidebar style={true} />
             </div>

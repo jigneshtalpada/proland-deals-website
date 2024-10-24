@@ -22,8 +22,7 @@ const HeaderOne = ({ style }: any) => {
                   <div className="d-flex align-items-center justify-content-between">
                      <div className="logo order-lg-0">
                         <Link to="/" className="d-flex align-items-center">
-                           {/* <img src="/assets/images/logo/logo_01.svg" alt="" /> */}
-                           Proland Deals
+                           <img src="/assets/images/logo/Proland-logo.png" alt="Proland-deals" height={100}  width={100} />
                         </Link>
                      </div>
                      <div className="right-widget ms-auto ms-lg-0 me-3 me-lg-0 order-lg-3">

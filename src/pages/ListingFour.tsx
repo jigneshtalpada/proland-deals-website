@@ -5,7 +5,7 @@ import ListingFourMain from '../components/inner-listing/listing-04';
 const ListingFour = () => {
    return (
       <Wrapper>
-         <SEO pageTitle={'Listing Four Homy'} />
+         <SEO pageTitle={'Listing - Proland Deals'} />
          <ListingFourMain />
       </Wrapper>
    );

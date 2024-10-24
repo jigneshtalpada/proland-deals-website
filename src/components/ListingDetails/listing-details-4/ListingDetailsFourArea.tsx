@@ -7,23 +7,23 @@ import CommonPropertyVideoTour from '../listing-details-common/CommonPropertyVid
 import CommonPropertyFloorPlan from '../listing-details-common/CommonPropertyFloorPlan'
 import CommonNearbyList from '../listing-details-common/CommonNearbyList'
 import SimilarProperty from './SimilarProperty'
-import CommonProPertyScore from '../listing-details-common/CommonProPertyScore'
+// import CommonProPertyScore from '../listing-details-common/CommonProPertyScore'
 import CommonLocation from '../listing-details-common/CommonLocation'
 import Sidebar from '../listing-details-1/Sidebar'
-import NiceSelect from '../../../ui/NiceSelect'
-import Review from '../../inner-pages/agency/agency-details/Review'
-import AgencyFormOne from '../../forms/AgencyFormOne'
+// import NiceSelect from '../../../ui/NiceSelect'
+// import Review from '../../inner-pages/agency/agency-details/Review'
+// import AgencyFormOne from '../../forms/AgencyFormOne'
 import LoginModal from '../../../modals/LoginModal'
 import { useState } from 'react'
 
 const ListingDetailsFourArea = () => {
 
    const [loginModal, setLoginModal] = useState<boolean>(false);
-   const selectHandler = () => { };
+   // const selectHandler = () => { };
 
    return (
       <>
-         <div className="listing-details-one theme-details-one border-top mt-130 lg-mt-100 pt-70 pb-150 xl-pb-120">
+         <div className="listing-details-one theme-details-one mt-130 lg-mt-100 pt-70 pb-150 xl-pb-120">
             <div className="container">
                <CommonBanner style_3={true} />
                <MediaGallery />
@@ -56,13 +56,13 @@ const ListingDetailsFourArea = () => {
                         <CommonNearbyList />
                      </div>
                      <SimilarProperty />
-                     <div className="property-score bottom-line-dark pb-40 mb-60">
+                     {/* <div className="property-score bottom-line-dark pb-40 mb-60">
                         <CommonProPertyScore />
-                     </div>
+                     </div> */}
                      <div className="property-location bottom-line-dark pb-60 mb-60">
                         <CommonLocation />
                      </div>
-                     <div className="review-panel-one bottom-line-dark pb-40 mb-60">
+                     {/* <div className="review-panel-one bottom-line-dark pb-40 mb-60">
                         <div className="position-relative z-1">
                            <div className="d-sm-flex justify-content-between align-items-center mb-10">
                               <h4 className="m0 xs-pb-30">Reviews</h4>
@@ -79,8 +79,8 @@ const ListingDetailsFourArea = () => {
                            </div>
                            <Review />
                         </div>
-                     </div>
-                     <div className="review-form">
+                     </div> */}
+                     {/* <div className="review-form">
                         <h4 className="mb-20">Leave A Reply</h4>
                         <p className="fs-20 lh-lg pb-15"><a onClick={() => setLoginModal(true)} style={{ cursor: "pointer" }} data-bs-toggle="modal" data-bs-target="#loginModal"
                            className="color-dark fw-500 text-decoration-underline">Sign in</a> to post your comment or
@@ -89,7 +89,7 @@ const ListingDetailsFourArea = () => {
                         <div className="bg-dot p-30">
                            <AgencyFormOne />
                         </div>
-                     </div>
+                     </div> */}
                   </div>
                   <Sidebar />
                </div>

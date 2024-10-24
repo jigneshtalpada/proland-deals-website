@@ -1,5 +1,5 @@
 import FeatureListing from "../listing-details-sidebar/FeatureListing"
-import MortgageCalculator from "../listing-details-sidebar/MortgageCalculator"
+// import MortgageCalculator from "../listing-details-sidebar/MortgageCalculator"
 import ScheduleForm from "../listing-details-sidebar/ScheduleForm"
 import SidebarInfo from "../listing-details-sidebar/SidebarInfo"
 
@@ -14,10 +14,10 @@ const Sidebar = () => {
                <h5 className="mb-40">Schedule Tour</h5>
                <ScheduleForm />
             </div>
-            <div className="mortgage-calculator bg-white border-20 p-30 mb-40">
+            {/* <div className="mortgage-calculator bg-white border-20 p-30 mb-40">
                <h5 className="mb-40">Mortgage Calculator</h5>
                <MortgageCalculator />
-            </div>
+            </div> */}
             <FeatureListing />
          </div>
       </div>
