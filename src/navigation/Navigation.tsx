@@ -66,6 +66,9 @@ import DashboardAddProperty from '../pages/DashboardAddProperty';
 import DashboardFavourites from '../pages/DashboardFavourites';
 import DashboardSavedSearch from '../pages/DashboardSavedSearch';
 import DashboardReview from '../pages/DashboardReview';
+import TermConditions from '../pages/termsAndConditions';
+import PrivacyPolicy from '../components/inner-pages/privacy-policy';
+import Cookie from '../pages/Cookie';
 
 const AppNavigation = () => {
   return (
@@ -99,6 +102,9 @@ const AppNavigation = () => {
         <Route path="/pricing_02" element={<PricingTwo />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/faq" element={<Faq />} />
+        <Route path="/terms_and_conditions" element={<TermConditions />} />
+        <Route path="/privacy_policy" element={<PrivacyPolicy />} />
+        <Route path="/cookie" element={<Cookie />} />
         <Route path="/listing_01" element={<ListingOne />} />
         <Route path="/listing_02" element={<ListingTwo />} />
         <Route path="/listing_03" element={<ListingThree />} />

@@ -12,11 +12,10 @@ const FaqArea = () => {
                      <div className="bg-wrapper">
                         <ul className="style-none">
                            <li><Link to="#Selling">1. <span>Selling</span></Link></li>
-                           <li><Link to="#Renting">2. <span>Renting</span></Link></li>
-                           <li><Link to="#Buying">3. <span>Buying</span></Link></li>
-                           <li><Link to="#Payments">4. <span>Payments</span></Link></li>
-                           <li><Link to="#Terms">5. <span>Terms & Conditions</span></Link></li>
-                           <li><Link to="#Account">6. <span>Account</span></Link></li>
+                           <li><Link to="#Buying">2. <span>Buying</span></Link></li>
+                           <li><Link to="#Payments">3. <span>Payments</span></Link></li>
+                           <li><Link to="#Terms">4. <span>Terms & Conditions</span></Link></li>
+                           <li><Link to="#Account">5. <span>Account</span></Link></li>
                         </ul>
                      </div>
                      <div className="bg-wrapper text-center mt-35">
