@@ -10,7 +10,7 @@ const BreadcrumbOne = ({ title, sub_title, style, link, link_title }: any) => {
                <li>/</li>
                {style && <>
                   <li><Link to={link}>{link_title}</Link></li>
-                  <li>/</li>
+                {  sub_title && <li>/</li>}
                </>}
                <li>{sub_title}</li>
             </ul>

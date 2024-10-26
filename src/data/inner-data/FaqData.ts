@@ -41,33 +41,6 @@ const inner_faq_data:DataType[] = [
    },
    {
       id: 2,
-      id_name: "Renting",
-      title: "RENTING",
-      faq: [
-         {
-            id: 5,
-            question: "Can a home depreciate in value?",
-            answer: "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-         },
-         {
-            id: 6,
-            question: "Is an older home as good a value as a new home?",
-            answer: "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-         },
-         {
-            id: 7,
-            question: "What is a broker?",
-            answer: "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-         },
-         {
-            id: 8,
-            question: "Can I pay my own taxes and insurance?",
-            answer: "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-         },
-      ]
-   },
-   {
-      id: 3,
       id_name: "Buying",
       title: "BUYING",
       faq: [
@@ -89,7 +62,7 @@ const inner_faq_data:DataType[] = [
       ]
    },
    {
-      id: 4,
+      id: 3,
       id_name: "Payments",
       title: "PAYMENTS",
       faq: [
@@ -111,7 +84,7 @@ const inner_faq_data:DataType[] = [
       ]
    },
    {
-      id: 5,
+      id: 4,
       id_name: "Terms",
       title: "TERMS & CONDITIONS",
       faq: [
@@ -128,7 +101,7 @@ const inner_faq_data:DataType[] = [
       ]
    },
    {
-      id: 6,
+      id: 5,
       id_name: "Account",
       title: "ACCOUNT",
       faq: [

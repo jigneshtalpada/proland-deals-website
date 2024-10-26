@@ -38,7 +38,13 @@ const FooterFive = () => {
                               <img src="/assets/images/logo/Proland-logo.png" alt="" height={150} width={150} />
                            </Link>
                         </div>
-                        <p className="mb-45 md-mb-20">Vallabh VidyaNagar, Anand</p>
+                        <p className="mb-20 md-mb-20">
+                           <i className="fa-solid fa-envelope"></i> prolanddeals@gmail.com
+                        </p>
+                        <p className="mb-20 md-mb-20">
+                           <i className="fa-solid fa-phone"></i> +91 99093 79697
+                        </p>
+                        <p className="mb-45 md-mb-20"><i className="fa-solid fa-location-dot"></i> Vallabh VidyaNagar, Anand</p>
                         <ul className="style-none d-flex align-items-center social-icon">
                            <li><Link to="#"><i className="fa-brands fa-facebook-f"></i></Link></li>
                            <li><Link to="#"><i className="fa-brands fa-twitter"></i></Link></li>

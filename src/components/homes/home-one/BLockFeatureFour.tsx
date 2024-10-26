@@ -28,7 +28,7 @@ const BLockFeatureFour = () => {
                            <h6>Your estimate is in!</h6>
                            <h3>$378,30.00</h3>
                         </div>
-                        <img src="/assets/images/assets/screen_12.png" alt="" className="lazy-img w-100" />
+                        <img src="/assets/images/assets/home_screen_12.png" alt="" className="lazy-img w-100" />
                      </div>
                   </div>
                </div>
