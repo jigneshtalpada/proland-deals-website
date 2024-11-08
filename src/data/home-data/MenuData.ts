@@ -85,18 +85,18 @@ const menu_data: MenuItem[] = [
             },
         ]
     },
-    {
-        id: 4,
-        has_dropdown: false,
-        title: "Blog",
-        link: "/blog_01",
-        sub_menus: [
-            { link: "/blog_01", title: "Blog Grid" },
-            { link: "/blog_02", title: "Blog List" },
-            { link: "/blog_03", title: "Blog 2 column" },
-            { link: "/blog_details", title: "Blog Details" },
-        ],
-    },
+    // {
+    //     id: 4,
+    //     has_dropdown: false,
+    //     title: "Blog",
+    //     link: "/blog_01",
+    //     sub_menus: [
+    //         { link: "/blog_01", title: "Blog Grid" },
+    //         { link: "/blog_02", title: "Blog List" },
+    //         { link: "/blog_03", title: "Blog 2 column" },
+    //         { link: "/blog_details", title: "Blog Details" },
+    //     ],
+    // },
     {
         id: 3,
         has_dropdown: false,

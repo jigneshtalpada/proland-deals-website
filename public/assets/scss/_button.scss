@@ -18,6 +18,26 @@
     color: #fff;
   }
 }
+
+.btn-mobile-one {
+  font-weight: 500;
+  color: $color-one;
+  padding: 0 15px;
+  min-width: 122px;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid $color-one;
+  border-radius: 10px;
+  @include transition (0.3s);
+  i {
+      margin-right: 5px;
+  }
+  &:hover, &:focus {
+    background: #000;
+    border-color: #000;
+    color: #fff;
+  }
+}
 .btn-two {
   display: inline-flex;
   align-items: center;
