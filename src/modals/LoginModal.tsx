@@ -1,18 +1,12 @@
 
-import { useState } from "react"
 import LoginForm from "../components/forms/LoginForm";
 import RegisterForm from "../components/forms/RegisterForm";
 import { Link } from "react-router-dom";
 
-const tab_title: string[] = ["Login", "Signup",];
 
-const LoginModal = ({ loginModal, setLoginModal }: any) => {
+const LoginModal = ({ loginModal, setLoginModal, loginData }: any) => {
 
-   const [activeTab, setActiveTab] = useState(0);
-
-   const handleTabClick = (index: any) => {
-      setActiveTab(index);
-   };
+   
 
    return (
       <div className={loginModal ? "login-modal-visible" : ""}>
@@ -22,15 +16,15 @@ const LoginModal = ({ loginModal, setLoginModal }: any) => {
                   <div className="user-data-form modal-content">
                      <button onClick={() => setLoginModal(false)} type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                      <div className="form-wrapper m-auto">
-                        <ul className="nav nav-tabs w-100">
+                        {/* <ul className="nav nav-tabs w-100">
                            {tab_title.map((tab, index) => (
                               <li key={index} onClick={() => handleTabClick(index)} className="nav-item">
                                  <button className={`nav-link ${activeTab === index ? "active" : ""}`}>{tab}</button>
                               </li>
                            ))}
-                        </ul>
+                        </ul> */}
                         <div className="tab-content mt-30">
-                           <div className={`tab-pane fade ${activeTab === 0 ? 'show active' : ''}`}>
+                           <div className={`tab-pane fade ${loginData === '1' ? 'show active' : ''}`}>
                               <div className="text-center mb-20">
                                  <h2>Welcome Back!</h2>
                                  <p className="fs-20 color-dark">Still don&apos;t have an account? <Link to="#">Sign up</Link></p>
@@ -38,7 +32,7 @@ const LoginModal = ({ loginModal, setLoginModal }: any) => {
                               <LoginForm />
                            </div>
 
-                           <div className={`tab-pane fade ${activeTab === 1 ? 'show active' : ''}`}>
+                           <div className={`tab-pane fade ${loginData === '2' ? 'show active' : ''}`}>
                               <div className="text-center mb-20">
                                  <h2>Register</h2>
                                  <p className="fs-20 color-dark">Already have an account? <Link to="#">Login</Link></p>

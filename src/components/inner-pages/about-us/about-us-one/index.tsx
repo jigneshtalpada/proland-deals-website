@@ -9,7 +9,6 @@ import BreadcrumbOne from "../../../common/breadcrumb/BreadcrumbOne"
 import BLockFeatureFive from "../../../homes/home-one/BLockFeatureFive"
 import VideoBanner from "../../../homes/home-seven/VideoBanner"
 import BLockFeatureOne from "./BLockFeatureOne"
-import Brand from "./Brand"
 
 const AboutUsOne = () => {
    return (
@@ -21,7 +20,7 @@ const AboutUsOne = () => {
          <BLockFeatureFive style={true} />
          {/* <Feedback style={true} /> */}
          {/* <AgentArea style={false} /> */}
-         <Brand />
+         {/* <Brand /> */}
          <FancyBanner style={false} />
          <FooterFive />
       </>

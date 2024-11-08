@@ -36,7 +36,7 @@ const ListingFourArea = () => {
    };
 
    return (
-      <div className="property-listing-six bg-pink-two pt-110 md-pt-80 pb-170 xl-pb-120 mt-150 xl-mt-120">
+      <div className="property-listing-six pt-110 md-pt-80 pb-170 xl-pb-120 mt-180 xl-mt-150"  style={{ background: "#ffb180" }} >
          <div className="container">
             <div className="search-wrapper-one layout-one position-relative mb-75 md-mb-50">
                <div className="bg-wrapper border-layout">

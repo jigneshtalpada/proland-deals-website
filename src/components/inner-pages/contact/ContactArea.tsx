@@ -62,7 +62,7 @@ const ContactArea = () => {
             </div>
          </div>
 
-         <div className="bg-pink mt-150 xl-mt-120 md-mt-80">
+         <div className=" mt-150 xl-mt-120 md-mt-80"  style={{ background: "#ffb07f" }}>
             <div className="row">
                <div className="col-xl-7 col-lg-6">
                   <div className="form-style-one">
