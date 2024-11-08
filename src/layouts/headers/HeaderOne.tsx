@@ -38,8 +38,8 @@ const HeaderOne = () => {
                   <img
                     src="/assets/images/logo/Proland-logo.png"
                     alt="Proland-deals"
-                    height={140}
-                    width={140}
+                    height={120}
+                    width={120}
                   />
                 </Link>
               </div>

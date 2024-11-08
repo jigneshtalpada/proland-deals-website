@@ -2271,10 +2271,11 @@ iframe {
 .theme-main-menu.fixed .alert-wrapper {
   display: none;
 }
-.theme-main-menu.fixed .gap-one {
+/* .theme-main-menu.fixed .gap-one {
   padding-top: 12px;
   padding-bottom: 12px;
-}
+} */
+ 
 .theme-main-menu.fixed .gap-two {
   padding-top: 12px;
   padding-bottom: 12px;

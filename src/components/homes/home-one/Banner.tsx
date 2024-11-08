@@ -27,11 +27,7 @@ const Banner = () => {
             <div className="search-wrapper-one layout-one  position-relative">
               <div
                 className="bg-wrapper dropdown-transparent"
-                style={{
-                  backgroundColor: "transparent",
-                  border: "none",
-                  boxShadow: "none",
-                }}
+               
               >
                 <DropdownOne style={false} />
               </div>
